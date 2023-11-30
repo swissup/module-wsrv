@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Model\Config\CatalogMediaConfig">
+        <plugin name="swissup_wsrv" type="Swissup\Wsrv\Plugin\CatalogMediaConfig"/>
+    </type>
+    <type name="Magento\Catalog\Model\View\Asset\Image">
+        <plugin name="swissup_wsrv" type="Swissup\Wsrv\Plugin\CatalogAssetImage"/>
+    </type>
+</config>
