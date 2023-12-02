@@ -5,7 +5,7 @@ Swissup_Wsrv — is a Magento image optimization module that uses free
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./media/dark.webp">
-    <img alt="Screenshot with image src demonstration" src="./media/light.webp" width="825" height="363">
+    <img alt="Screenshot with image src demonstration" src="./media/light.webp" width="825">
 </picture>
 
 ## Installation
